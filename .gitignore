@@ -1,0 +1,23 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Logs & checkpoints
+*.log
+*.h5
+*.keras
+tuning_logs/
+results/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Mac system files
+.DS_Store
