@@ -17,22 +17,6 @@ It combines **grid-based sensor mapping**, **synthetic/real traffic data**, **de
 
 ---
 
-## 📊 Example Results
-
-### CNN Forecast (Predicted vs Actual Heatmap)
-
-<img src="./results/pred_vs_actual.png" width="600"/>
-
-### Cluster Centers (Traffic Patterns)
-
-<img src="./esults/cluster_centers.png" width="600"/>
-
-### PCA of Traffic Heatmap Clusters
-
-<img src="./results/pca_clusters.png" width="400"/>
-
----
-
 ## 🛠️ Installation
 
 ## 1. Clone the repo
