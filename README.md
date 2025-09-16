@@ -42,21 +42,15 @@ cd Traffic-Flow-Forecasting-Using-Spatial-CNNs
 
 ## 2. Create virtual environment (recommended, macOS/Linux)
 
-bash
-Copy code
 python3 -m venv .venv
 source .venv/bin/activate
 
 ## 3. Install dependencies
 
-bash
-Copy code
 pip install --upgrade pip
 pip install -r requirements.txt
 
 ## ▶️ Running the Pipeline
-bash
-Copy code
 python main.py
 
 This will:
