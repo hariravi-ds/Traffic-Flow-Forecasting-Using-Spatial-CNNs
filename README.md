@@ -5,29 +5,6 @@ It combines **grid-based sensor mapping**, **synthetic/real traffic data**, **de
 
 ---
 
-## 📂 Project Structure
-
-Traffic-Flow-Forecasting-Using-Spatial-CNNs/
-│── data/ # input distance.csv (sensor network)
-│── models/ # trained CNN models (.keras)
-│── notebooks/ # exploratory notebook
-│── results/ # generated plots & heatmaps
-│── src/ # source code modules
-│ ├── cleaning.py # data cleaning utilities
-│ ├── data_prep.py # sensor mapping & sequence creation
-│ ├── model.py # CNN builder for Keras Tuner
-│ ├── clustering.py # KMeans & PCA clustering
-│ ├── visualization.py # plotting helpers
-│ ├── utils.py # save/load utils
-│ └── init.py
-│── main.py # entry point for full pipeline
-│── requirements.txt
-│── README.md
-
-
----
-
-
 ## ⚡ Features
 
 - Convert **sensor distance matrix** → **2D grid mapping** (via MDS)
@@ -59,8 +36,7 @@ Traffic-Flow-Forecasting-Using-Spatial-CNNs/
 
 ## 🛠️ Installation
 
-## 1. Clone the repo**
-```bash
+## 1. Clone the repo
 git clone https://github.com/<your-username>/Traffic-Flow-Forecasting-Using-Spatial-CNNs.git
 cd Traffic-Flow-Forecasting-Using-Spatial-CNNs
 
