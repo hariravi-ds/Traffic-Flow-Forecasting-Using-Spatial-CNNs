@@ -21,16 +21,19 @@ It combines **grid-based sensor mapping**, **synthetic/real traffic data**, **de
 
 ## 1. Clone the repo
 git clone https://github.com/hariravi-ds/Traffic-Flow-Forecasting-Using-Spatial-CNNs.git
+
 cd Traffic-Flow-Forecasting-Using-Spatial-CNNs
 
 ## 2. Create virtual environment (recommended, macOS/Linux)
 
 python3 -m venv .venv
+
 source .venv/bin/activate
 
 ## 3. Install dependencies
 
 pip install --upgrade pip
+
 pip install -r requirements.txt
 
 ## ▶️ Running the Pipeline
@@ -38,10 +41,15 @@ python main.py
 
 This will:
 Train + tune CNN
+
 Save best model → models/cnn_model.keras
+
 Save results → results/ folder:
+
 pred_vs_actual.png (forecast comparison)
+
 cluster_centers.png (unsupervised clusters)
+
 pca_clusters.png (PCA scatter of clusters)
 
 ## 📦 Requirements
@@ -49,12 +57,18 @@ See requirements.txt.
 
 Key libraries:
 TensorFlow / Keras
+
 Keras-Tuner
+
 scikit-learn
+
 numpy, pandas
+
 matplotlib, seaborn
 
 ## 🔮 Next Steps
 Replace synthetic generator with real-world datasets (e.g. METR-LA, PeMS)
+
 Add spatio-temporal GNNs for comparison
+
 Experiment with attention-based forecasting
