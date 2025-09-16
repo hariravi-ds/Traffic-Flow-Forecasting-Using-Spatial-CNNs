@@ -15,7 +15,7 @@ Visualization – Interactive plots of predicted vs. actual traffic heatmaps.
 
 🚀 Getting Started
 1. Clone the repository
-git clone https://github.com/yourusername/traffic-flow-forecasting.git
+git clone https://github.com/hariravi-ds/Traffic-Flow-Forecasting-Using-Spatial-CNNs
 cd traffic-flow-forecasting
 
 2. Install dependencies
